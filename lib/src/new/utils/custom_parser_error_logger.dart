@@ -7,7 +7,7 @@ class CustomParseErrorLogger extends ParseErrorLogger {
   @override
   void logError(Object error, StackTrace stackTrace, RequestOptions options, Response response) {
     log(
-      'PlacesAPINew/CustomParseErrorLogger => Error: $error\nStackTrace: $stackTrace\nOptions: $options',
+      'PlacesAPINew/CustomParseErrorLogger => Error: $error\nStackTrace: $stackTrace\nOptions: $options\nResponse: $response',
     );
   }
 }
