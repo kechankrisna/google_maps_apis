@@ -16,3 +16,6 @@ coverage/
 
 test/\.test_coverage\.dart
 .vscode
+
+# FVM Version Cache
+.fvm/
